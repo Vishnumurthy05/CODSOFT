@@ -10,8 +10,6 @@
       font-family: Arial, sans-serif;
       line-height: 1.6;
     }
-
-    /* Header */
     header {
       background: #333;
       color: #fff;
@@ -46,8 +44,6 @@
     nav ul li a:hover {
       color: #00aaff;
     }
-
-    /* Hero Section */
     .hero {
       display: flex;
       align-items: center;
@@ -88,7 +84,6 @@
       border-radius: 10px;
     }
 
-    /* About Section */
     #about {
       padding: 50px 20px;
       text-align: center;
@@ -104,8 +99,6 @@
       margin: auto;
       color: #555;
     }
-
-    /* Features/Skills */
     #skills {
       background: #f9f9f9;
       padding: 50px 20px;
@@ -132,7 +125,6 @@
       text-align: center;
     }
 
-    /* Contact */
     #contact {
       padding: 50px 20px;
       text-align: center;
@@ -142,7 +134,6 @@
       margin: 10px 0;
     }
 
-    /* Footer */
     footer {
       background: #333;
       color: #fff;
