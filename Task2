@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 22px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin-left: 20px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      color: #00aaff;
+    }
+
+    /* Hero Section */
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 60px 20px;
+      background: #f4f4f4;
+    }
+
+    .hero-text {
+      max-width: 500px;
+    }
+
+    .hero-text h2 {
+      font-size: 36px;
+      margin-bottom: 15px;
+    }
+
+    .hero-text p {
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #007bff;
+      color: #fff;
+      padding: 12px 25px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background: #0056b3;
+    }
+
+    .hero img {
+      width: 300px;
+      border-radius: 10px;
+    }
+
+    /* About Section */
+    #about {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    #about h2 {
+      font-size: 28px;
+      margin-bottom: 15px;
+    }
+
+    #about p {
+      max-width: 700px;
+      margin: auto;
+      color: #555;
+    }
+
+    /* Features/Skills */
+    #skills {
+      background: #f9f9f9;
+      padding: 50px 20px;
+    }
+
+    #skills h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .skills-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .skill-box {
+      background: #007bff;
+      color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      min-width: 150px;
+      text-align: center;
+    }
+
+    /* Contact */
+    #contact {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    #contact p {
+      margin: 10px 0;
+    }
+
+    /* Footer */
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 15px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Landing Page</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Welcome to My Page</h2>
+      <p>I’m a computer science student passionate about web development. I'm interested in creating beautiful and attractive web applications.</p>
+      <a href="#contact" class="btn">Get Started</a>
+    </div>
+    <img src="your-photo.jpg" alt="Profile Image">
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I am a web developer skilled in HTML, CSS, and JavaScript. I enjoy designing landing pages, portfolios, and interactive projects. This project demonstrates my ability to align sections, manage layouts, and create user-friendly designs.</p>
+  </section>
+
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+      <div class="skill-box">HTML</div>
+      <div class="skill-box">CSS</div>
+      <div class="skill-box">JavaScript</div>
+      <div class="skill-box">Responsive Design</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: vishnu.panthagani05@gmail.com</p>
+    <p>Phone: +91 8919348698</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Landing Page. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
