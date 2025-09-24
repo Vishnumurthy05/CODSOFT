@@ -180,12 +180,12 @@
       <p>I am a student passionate about web development.</p>
       <a href="8919348698" class="btn">Hire Me</a>
     </div>
-    <img src="photo.jpg" alt="Photo">
+    <img src="vishnu.jpg" alt="Photo">
   </section>
 
   <section id="about">
     <h2>About Me</h2>
-    <img src="photo.jpg" alt="Profile Picture">
+    <img src="vishnu.jpg" alt="Profile Picture">
     <p>Design website architecture and develop website user interface using standard HTML/CSS practices.</p>
   </section>
 
