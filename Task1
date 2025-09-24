@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      margin: 10px 0 0 0;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* Hero Section */
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      background: #f4f4f4;
+      padding: 50px 20px;
+    }
+
+    .hero-text {
+      max-width: 500px;
+    }
+
+    .hero-text h2 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .hero-text p {
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .hero img {
+      width: 300px;
+      border-radius: 10px;
+    }
+
+    /* About Section */
+    #about {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    #about img {
+      width: 150px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+
+    /* Skills Section */
+    #skills {
+      padding: 50px 20px;
+      background: #f9f9f9;
+    }
+
+    #skills h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .skill-list {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .skill-item {
+      background: #007bff;
+      color: #fff;
+      padding: 15px 25px;
+      border-radius: 5px;
+    }
+
+    /* Projects Section */
+    #projects {
+      padding: 50px 20px;
+    }
+
+    #projects h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .project {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .project img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
+    }
+
+    /* Resume Section */
+    #resume {
+      padding: 50px 20px;
+      text-align: center;
+      background: #f4f4f4;
+    }
+
+    /* Contact Section */
+    #contact {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    /* Footer */
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 15px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Hi, I'm Vishnu Murthy</h2>
+      <p>I am a student passionate about web development.</p>
+      <a href="8919348698" class="btn">Hire Me</a>
+    </div>
+    <img src="photo.jpg" alt="Photo">
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="photo.jpg" alt="Profile Picture">
+    <p>Design website architecture and develop website user interface using standard HTML/CSS practices.</p>
+  </section>
+
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skill-list">
+      <div class="skill-item">HTML</div>
+      <div class="skill-item">CSS</div>
+      <div class="skill-item">JavaScript</div>
+      <div class="skill-item">Python</div>
+      <div class="skill-item">React</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Project 1</h3>
+      <img src="project1.jpg" alt="Project 1">
+      <p>In this project im practices about cloud-based platforms for managing, storing and analysing large amounts of data sets</p>
+    </div>
+    <div class="project">
+      <h3>Project 2</h3>
+      <img src="project2.png" alt="Project 2">
+      <p>In this project im learn and practices developing a fingerprint recognition system.</p>
+    </div>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <p>You can download my resume below.</p>
+    <a href="resume.pdf" class="btn" download>Download Resume</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: vishnu.panthagani05@gmail.com</p>
+    <p>Phone: +91 8919348698</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Portfolio. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
